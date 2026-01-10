@@ -3,9 +3,8 @@ export default function Hero() {
     
       <section
         id="home"
-        className="bg-gradient-to-r from-blue-50 to-indigo-100 pt-40  w-full"
-      >
-        <div className="container mx-auto px-6 text-center">
+        className="bg-gradient-to-r from-blue-50 to-indigo-100 pb-40 pt-40  w-full z-10" >
+        <div className="container mx-auto px-6 text-center w-full">
 
           <div className="flex justify-center pt-1  pb-8">
             <img

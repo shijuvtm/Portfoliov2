@@ -4,20 +4,20 @@ const Header = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <>
-      <header className="bg-white shadow-md fixed w-full z-10">
-        <div className="container mx-auto px-6 py-3">
+   
+      <header className="p-2 bg-white shadow-md fixed w-full z-10">
+        <div className="container mx-auto px-4 py-3">
           <div className="flex items-center justify-between">
             <a href="#" className="text-xl font-bold text-gray-800">Shiju A</a>
 
             
             <nav className="hidden md:flex space-x-8">
-              <a href="#home" className="text-gray-600 hover:text-blue-600">Home</a>
-              <a href="#about" className="text-gray-600 hover:text-blue-600">About</a>
-              <a href="#skills" className="text-gray-600 hover:text-blue-600">Skills</a>
-              <a href="#education" className="text-gray-600 hover:text-blue-600">Education</a>
-              <a href="#projects" className="text-gray-600 hover:text-blue-600">Projects</a>
-              <a href="#contact" className="text-gray-600 hover:text-blue-600">Contact</a>
+              <a href="#home" className="text-gray-800 hover:text-blue-600">Home</a>
+              <a href="#about" className="text-gray-800 hover:text-blue-600">About</a>
+              <a href="#skills" className="text-gray-800 hover:text-blue-600">Skills</a>
+              <a href="#education" className="text-gray-800 hover:text-blue-600">Education</a>
+              <a href="#projects" className="text-gray-800 hover:text-blue-600">Projects</a>
+              <a href="#contact" className="text-gray-800 hover:text-blue-600">Contact</a>
             </nav>
 
             <button className="md:hidden focus:outline-none text-gray-800"
@@ -49,7 +49,7 @@ const Header = () => {
 
           
           {open && (
-            <nav className="md:hidden mt-3 space-y-2">
+            <nav className="md:hidden mt-3 space-y-2 p-3">
               <a href="#home" className="block text-gray-700 hover:text-blue-600">Home</a>
               <a href="#about" className="block text-gray-700 hover:text-blue-600">About</a>
               <a href="#skills" className="block text-gray-700 hover:text-blue-600">Skills</a>
@@ -60,7 +60,7 @@ const Header = () => {
           )}
         </div>
       </header>
-    </>
+    
   );
 };
 

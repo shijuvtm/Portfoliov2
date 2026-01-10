@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="font-sans text-white-800">
+    <div>
       <Header />
       <Hero />
       <About />
