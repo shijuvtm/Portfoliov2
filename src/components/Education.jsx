@@ -10,7 +10,9 @@ export default function Education() {
             My academic journey in Computer Science
           </p>
 
-          <div className="space-y-8 mb-16">
+          <div className="bg-blue-500 hover:bg-blue-300 
+            transition-all duration-300 ease-in-out
+            hover:shadow-lg p-4 rounded space-y-8 mb-16">
             {education.map((edu, index) => (
               <div key={index} className="bg-gray-50 p-6 rounded-lg">
                 <h3 className="text-xl font-semibold text-gray-800">{edu.degree}</h3>
