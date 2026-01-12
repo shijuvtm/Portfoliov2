@@ -32,7 +32,9 @@ export default function Education() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
               <h3 className="text-2xl font-bold text-gray-800 mb-6">Certifications</h3>
-              <div className="space-y-6">
+              <div className="bg-blue-500 hover:bg-blue-300
+            transition-all duration-300 ease-in-out
+            hover:shadow-lg p-4 rounded space-y-6">
                 {certifications.map((cert, index) => (
                   <div key={index} className="bg-gray-50 p-6 rounded-lg">
                     <h4 className="text-lg font-semibold text-gray-800">{cert.title}</h4>
@@ -47,7 +49,9 @@ export default function Education() {
               <h3 className="text-2xl font-bold text-gray-800 mb-6">Achievements</h3>
               <div className="space-y-6">
                 {achievements.map((ach, index) => (
-                  <div key={index} className="bg-gray-50 p-6 rounded-lg">
+                  <div key={index} className=" bg-green-500 hover:bg-green-300
+            transition-all duration-300 ease-in-out
+            hover:shadow-lg p-4 rounded  p-6 rounded-lg">
                     <h4 className="text-lg font-semibold text-gray-800">{ach.title}</h4>
                     <p className="text-gray-600 font-medium mb-2">{ach.issuer}</p>
                     <p className="text-gray-600">{ach.description}</p>

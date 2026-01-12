@@ -7,7 +7,8 @@ export const projects = [
       "User shopping",
       "Admin inventory management",
       "Responsive UI",
-      "Real-time updates"
+      "Real-time updates",
+      "Payment Gateway"
     ],
     technologies: ["React", "Node.js", "JavaScript", "CSS","MongoDB"],
     demoLink: "#",
@@ -21,7 +22,8 @@ export const projects = [
       "Score prediction",
       "Historical data analysis",
       "ML model",
-      "Interactive UI"
+      "Interactive UI",
+      "Wheather Api Based"
     ],
     technologies: ["Python", "Flask", "Machine Learning"],
     demoLink: "#",
