@@ -1,6 +1,7 @@
+import { programmingLanguages,frameworks,tools,coreAreas,softSkills } from "../data/Skills";
 export default function Skills() {
   return (
-    <section id="skills" className="py-24 bg-slate-50 w-full">
+    <section id="skills" className="py-24 bg-slate-50 w-full overflow-hidden">
       <div className="container mx-auto px-6">
         
         {/* Section Header */}
@@ -66,7 +67,7 @@ export default function Skills() {
           </div>
         </div>
 
-        
+        {/* Bottom Grid: Tools and Tags */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           
           {/* Tools & Platforms */}
@@ -96,7 +97,7 @@ export default function Skills() {
           {/* Core Areas & Soft Skills as Pill Tags */}
           <div className="lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-8">
             
-            
+            {/* Core Areas */}
             <div className="bg-white p-8 rounded-3xl border border-slate-100">
               <h3 className="text-xl font-bold text-slate-800 mb-6 flex items-center gap-2">
                 <i className="fa-solid fa-microchip text-rose-500"></i> Core Areas
@@ -110,7 +111,7 @@ export default function Skills() {
               </div>
             </div>
 
-            
+            {/* Soft Skills */}
             <div className="bg-white p-8 rounded-3xl border border-slate-100">
               <h3 className="text-xl font-bold text-slate-800 mb-6 flex items-center gap-2">
                 <i className="fa-solid fa-users text-emerald-500"></i> Soft Skills

@@ -5,8 +5,9 @@ export default function Education() {
   return (
          <section id="education" className="py-16 bg-white w-full">
         <div className="container mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Education</h2>
-          <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+          <h2 className="text-4xl text-center md:text-5xl text-center font-black text-slate-900 mb-4">Education</h2>
+          <div className="center h-1.5 w-20 bg-indigo-600 mx-auto rounded-full mb-6"></div> 
+           <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
             My academic journey in Computer Science
           </p>
 
