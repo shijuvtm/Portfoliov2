@@ -11,7 +11,7 @@ export const projects = [
       "Payment Gateway"
     ],
     technologies: ["React", "Node.js", "JavaScript", "CSS","MongoDB"],
-    demoLink: "#",
+    demoLink: "https://mobilecart-production.up.railway.app/view-products",
     codeLink: "https://github.com/shijuvtm/MOBILE-CART-WEB-APP"
   },
   {
