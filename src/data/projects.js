@@ -1,5 +1,21 @@
 export const projects = [
   {
+  title: "JobConnect – Full Stack Job Portal",
+  period: "Jan 2025 – Present",
+  description: "Scalable full-stack job portal built with Django REST Framework and React, supporting secure authentication, resume uploads, and job management workflows.",
+  features: [
+    "Secure user authentication & role-based access",
+    "Resume upload using multipart/form-data",
+    "Job listing, filtering & application tracking",
+    "Multi-step registration with client-side validation",
+    "RESTful API architecture",
+    "PostgreSQL database integration"
+  ],
+  technologies: ["React", "Django", "DRF", "PostgreSQL", "JavaScript", "Tailwind CSS"],
+  demoLink: "",
+  codeLink: "https://github.com/shijuvtm/JobConnect"
+  }, 
+  {
     title: "Mobile Cart E-Commerce App",
     period: "Oct 2024 – Apr 2025",
     description: "Full-stack e-commerce app with dual login mode, shopping flow & admin dashboard.",
