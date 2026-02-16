@@ -16,7 +16,7 @@ export const frameworks = [
 export const tools = [
   { name: 'Visual Studio Code and Cursor AI', percentage: 90 },
   { name: 'Google Ai Studio',percentage:80 },
-  { name: 'wix ' percentage:82},
+  { name: 'wix', percentage: 82 },
   { name: 'Git', percentage: 85 },
   { name: 'Postman', percentage: 88 },
   { name: 'Power BI', percentage: 90 }
