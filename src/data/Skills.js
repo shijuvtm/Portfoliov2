@@ -9,13 +9,16 @@ export const frameworks = [
   { name: 'React.js', percentage: 88 },
   { name: 'Node.js', percentage: 90 },
   { name: 'Express.js', percentage: 100 },
+  { name: 'Django',percentage:84 },
   { name: 'Bootstrap', percentage: 82 }
 ];
 
 export const tools = [
   { name: 'Visual Studio Code and Cursor AI', percentage: 90 },
+  { name: 'Google Ai Studio',percentage:80 },
+  { name: 'wix ' percentage:82},
   { name: 'Git', percentage: 85 },
-  { name: 'Firebase', percentage: 78 },
+  { name: 'Postman', percentage: 88 },
   { name: 'Power BI', percentage: 90 }
 ];
 
