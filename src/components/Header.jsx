@@ -27,9 +27,6 @@ const Header = () => {
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between">
           <a href="#" className="group flex items-center gap-2">
-            <span className="text-2xl font-black tracking-tighter text-blue-600 transition-transform group-hover:scale-110">
-              S.
-            </span>
             <span className={`text-xl font-bold transition-colors ${scrolled ? 'text-gray-800' : 'text-gray-900'}`}>
               Shiju A
             </span>
