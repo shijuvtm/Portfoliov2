@@ -12,7 +12,7 @@ export const projects = [
     "PostgreSQL database integration"
   ],
   technologies: ["React", "Django", "DRF", "PostgreSQL", "JavaScript", "Tailwind CSS"],
-  demoLink: "",
+  demoLink: "https://job-connect-lilac.vercel.app/",
   codeLink: "https://github.com/shijuvtm/JobConnect"
   }, 
   {
