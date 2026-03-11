@@ -19,10 +19,10 @@ export default function Footer() {
               Crafting high-performance digital experiences. Specializing in modern Full Stack development to turn complex problems into elegant solutions.
             </p>
             <div className="flex space-x-4 mt-6">
-              <a href="#" className="p-2 bg-gray-800 rounded-lg hover:bg-blue-600 transition-colors duration-300">
+              <a href="https://www.linkedin.com/in/shiju-a-800572273" className="p-2 bg-gray-800 rounded-lg hover:bg-blue-600 transition-colors duration-300">
                 <FaLinkedin size={18} />
               </a>
-              <a href="#" className="p-2 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors duration-300">
+              <a href="https://github.com/shijuvtm" className="p-2 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors duration-300">
                 <FaGithub size={18} />
               </a>
             </div>
@@ -52,7 +52,7 @@ export default function Footer() {
             <ul className="space-y-4 text-gray-400">
               <li className="hover:text-white transition-colors">
                 <span className="block text-xs text-gray-500">Email</span>
-                <a href="mailto:shijuavtm@gmail.com">shijuavtm@gmail.com</a>
+                <a href="mailto:shijuavtm1@gmail.com">shijuavtm1@gmail.com</a>
               </li>
               <li className="hover:text-white transition-colors">
                 <span className="block text-xs text-gray-500">Location</span>
