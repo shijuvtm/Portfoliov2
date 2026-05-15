@@ -56,7 +56,7 @@ export const projects = [
       "Simple UI"
     ],
     technologies: ["Android", "Java", "XML","MySQl"],
-    demoLink: "#",
+    demoLink: "https://mobile-cart-web-app.onrender.com/",
     codeLink: "#"
   }
 ];
