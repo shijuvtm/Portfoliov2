@@ -26,8 +26,8 @@ export const projects = [
       "Real-time updates",
       "Payment Gateway"
     ],
-    technologies: ["React", "Node.js", "JavaScript", "CSS","MongoDB"],
-    demoLink: "https://mobilecart-production.up.railway.app/view-products",
+    technologies: ["Node.js", "JavaScript", "CSS","MongoDB"],
+    demoLink: "https://mobile-cart-web-app.onrender.com/",
     codeLink: "https://github.com/shijuvtm/MOBILE-CART-WEB-APP"
   },
   {
@@ -56,7 +56,7 @@ export const projects = [
       "Simple UI"
     ],
     technologies: ["Android", "Java", "XML","MySQl"],
-    demoLink: "https://mobile-cart-web-app.onrender.com/",
+    demoLink: "#",
     codeLink: "#"
   }
 ];
