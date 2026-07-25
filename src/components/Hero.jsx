@@ -35,12 +35,11 @@ export default function Hero() {
           </h1>
 
           <h2 className="text-xl md:text-3xl font-light text-slate-600 mb-6 italic">
-            Full Stack Developer
+            Full Stack Developer & Machine Learning Engineer
           </h2>
 
           <p className="text-slate-500 max-w-2xl mx-auto mb-10 text-lg leading-relaxed">
-            Crafting robust digital solutions with modern code. Based in Kerala, India — 
-            available for worldwide collaboration.
+            I blend innovation with precision, building intelligent web applications that combine robust backend systems, intuitive frontends, and cutting-edge ML solutions. From concept to deployment, I craft digital experiences that solve real-world problems. Based in Kerala, India — open to exciting projects worldwide.
           </p>
 
           {/* Modern Buttons */}
