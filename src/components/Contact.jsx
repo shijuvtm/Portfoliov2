@@ -1,6 +1,13 @@
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
-import { FaLinkedin, FaGithub, FaEnvelope, FaPhoneAlt, FaMapMarkerAlt, FaPaperPlane } from "react-icons/fa";
+import {
+  FaLinkedin,
+  FaGithub,
+  FaEnvelope,
+  FaPhoneAlt,
+  FaMapMarkerAlt,
+  FaPaperPlane,
+} from "react-icons/fa";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -22,22 +29,22 @@ export default function Contact() {
 
     emailjs
       .send(
-        "service_8u1kzjq",
-        "template_megkkpj",
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         {
           from_name: formData.name,
           from_email: formData.email,
           subject: formData.subject,
           message: formData.message,
         },
-        "7qAIRTN2jYGVq2nG0"
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       )
       .then(() => {
         alert("Message sent successfully!");
         setFormData({ name: "", email: "", subject: "", message: "" });
       })
       .catch((error) => {
-        console.error(error);
+        console.error("EmailJS Error:", error);
         alert("Failed to send the message.");
       })
       .finally(() => setIsSending(false));
@@ -60,7 +67,7 @@ export default function Contact() {
           {/* Contact Info Card */}
           <div className="lg:col-span-2 bg-blue-600 rounded-2xl p-8 text-white shadow-xl">
             <h3 className="text-2xl font-bold mb-8">Contact Information</h3>
-            
+
             <div className="space-y-8">
               <div className="flex items-start space-x-4">
                 <div className="bg-blue-500 p-3 rounded-lg">
@@ -94,12 +101,24 @@ export default function Contact() {
             </div>
 
             <div className="mt-12">
-              <p className="text-blue-100 mb-4 uppercase tracking-widest text-xs font-bold">Follow Me</p>
+              <p className="text-blue-100 mb-4 uppercase tracking-widest text-xs font-bold">
+                Follow Me
+              </p>
               <div className="flex space-x-4">
-                <a href="https://www.linkedin.com/in/shiju-a-800572273" className="bg-white/10 hover:bg-white/20 p-3 rounded-full transition-all">
+                <a
+                  href="https://www.linkedin.com/in/shiju-a-800572273"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="bg-white/10 hover:bg-white/20 p-3 rounded-full transition-all"
+                >
                   <FaLinkedin size={22} />
                 </a>
-                <a href="https://github.com/shijuvtm" className="bg-white/10 hover:bg-white/20 p-3 rounded-full transition-all">
+                <a
+                  href="https://github.com/shijuvtm"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="bg-white/10 hover:bg-white/20 p-3 rounded-full transition-all"
+                >
                   <FaGithub size={22} />
                 </a>
               </div>
@@ -111,7 +130,9 @@ export default function Contact() {
             <form onSubmit={handleSubmit} className="space-y-5">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                 <div>
-                  <label className="block text-sm font-semibold text-gray-700 mb-2">Full Name</label>
+                  <label className="block text-sm font-semibold text-gray-700 mb-2">
+                    Full Name
+                  </label>
                   <input
                     type="text"
                     name="name"
@@ -123,7 +144,9 @@ export default function Contact() {
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-semibold text-gray-700 mb-2">Email Address</label>
+                  <label className="block text-sm font-semibold text-gray-700 mb-2">
+                    Email Address
+                  </label>
                   <input
                     type="email"
                     name="email"
@@ -137,7 +160,9 @@ export default function Contact() {
               </div>
 
               <div>
-                <label className="block text-sm font-semibold text-gray-700 mb-2">Subject</label>
+                <label className="block text-sm font-semibold text-gray-700 mb-2">
+                  Subject
+                </label>
                 <input
                   type="text"
                   name="subject"
@@ -150,7 +175,9 @@ export default function Contact() {
               </div>
 
               <div>
-                <label className="block text-sm font-semibold text-gray-700 mb-2">Message</label>
+                <label className="block text-sm font-semibold text-gray-700 mb-2">
+                  Message
+                </label>
                 <textarea
                   name="message"
                   rows="4"
