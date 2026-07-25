@@ -67,5 +67,5 @@ export const softSkills = [
   'Time Management',
   'Attention to Detail',
   'Team Collaboration',
-  'Adaptability ", 
-  ]
+  'Adaptability',
+];
