@@ -11,7 +11,7 @@ export const projects = [
     "RESTful API architecture",
     "PostgreSQL database integration"
   ],
-  technologies: ["React", "Django", "DRF", "PostgreSQL", "JavaScript", "Tailwind CSS"],
+  technologies: ["React", "Django", "DRF", "PostgreSQL", "JavaScript", "Tailwind CSS","RAG"],
   demoLink: "https://job-connect-lilac.vercel.app/",
   codeLink: "https://github.com/shijuvtm/JobConnect"
   }, 
@@ -41,8 +41,8 @@ export const projects = [
       "Interactive UI",
       "Wheather Api Based"
     ],
-    technologies: ["Python", "Flask", "Machine Learning"],
-    demoLink: "#",
+    technologies: ["Python", "Flask", " React", "Machine Learning","OpenWeather API"],
+    demoLink: "https://score-predictor-ten.vercel.app/",
     codeLink: "https://github.com/shijuvtm/IPL-Score-Predictor-2024-web-app"
   },
   {
