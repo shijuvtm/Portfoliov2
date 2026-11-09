@@ -28,7 +28,7 @@ export const projects = [
     ],
     technologies: ["Node.js", "JavaScript", "CSS","MongoDB"],
     demoLink: "https://mobile-cart-web-app.onrender.com/",
-    codeLink: "https://github.com/shijuvtm/MOBILE-CART-WEB-APP"
+    codeLink: "https://github.com/shijuvtm/Score-predictor"
   },
   {
     title: "IPL Score Predictor Web App",
